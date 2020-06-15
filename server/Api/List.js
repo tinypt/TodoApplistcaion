@@ -15,7 +15,7 @@ route.get('/', (req, res) => {
       });
     });
 });
-//Get 1
+//Get 1 todo
 route.get('/:_id', (req, res) => {
   const id = req.params._id;
   List.findById(id)
